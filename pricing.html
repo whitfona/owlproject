@@ -1,424 +1,487 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/65f79fa78a.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Owl Practice</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="primary-header">
-      <p id="headline">
-        Owl users tell us they save more than 8 hours on average each month in
-        practice administration!
-      </p>
-      <div class="container">
-        <div id="header-menu">
-          <a href="index.html"
-            ><img src="images/owl_logo.png" alt="Owl Practice"
-          /></a>
-          <ul class="primary-menu text-white">
-            <li><a href="billing.html">Tour</a></li>
-            <li><a href="mission.html">Our Mission</a></li>
-            <li><a href="#" class="current-tab">Pricing</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#">TherapyOwl</a></li>
-            <li><a href="#" class="btn-white">Request a Demo</a></li>
-            <li><a href="#" class="btn-green">Free Trial</a></li>
-          </ul>
-        </div>
-        <div class="header-content">
-          <div class="header-text">
-            <h1>
-              Pricing.
-            </h1>
-            <p>
-              Getting started is easy!
-            </p>
-            <p>Our plans are month-to-month and you can change anytime.</p>
-          </div>
-          <i class="fas fa-tag fa-5x"></i>
-        </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/65f79fa78a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet" />
+  <title>Owl Practice</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="tab-style.css" />
+</head>
+
+<body>
+  <header class="primary-header">
+    <p id="headline">
+      Owl users tell us they save more than 8 hours on average each month in
+      practice administration!
+    </p>
+    <div class="container">
+      <div id="header-menu">
+        <a href="index.html"><img src="images/owl_logo.png" alt="Owl Practice" /></a>
+        <ul class="primary-menu text-white">
+          <li><a href="billing.html">Tour</a></li>
+          <li><a href="mission.html">Our Mission</a></li>
+          <li><a href="#" class="current-tab">Pricing</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">TherapyOwl</a></li>
+          <li><a href="#" class="btn-white">Request a Demo</a></li>
+          <li><a href="#" class="btn-green">Free Trial</a></li>
+        </ul>
       </div>
-    </header>
-
-    <section id="core-features">
-      <div class="container">
-        <h2>Core Features</h2>
-        <div class="core-features-grid">
-          <div class="core-features-flex">
-            <i id="clock" class="far fa-clock fa-3x"></i>
-            <div>
-              <h3 class="medium-text">Customer Support</h3>
-              <p class="medium-text">
-                We’re here to help seven days a week. Customer support is
-                included in your monthly fees so contact us today.
-              </p>
-            </div>
-          </div>
-          <div class="core-features-flex">
-            <i id="lock" class="fas fa-lock fa-3x"></i>
-            <div>
-              <h3 class="medium-text">PHIPA and College Compliant</h3>
-              <p class="medium-text">
-                Store your client information on our PHIPA and college compliant
-                servers.
-              </p>
-            </div>
-          </div>
-          <div class="core-features-flex">
-            <i class="far fa-folder-open fa-3x"></i>
-            <div>
-              <h3 class="medium-text">Workflow Automation</h3>
-              <p class="medium-text">
-                Never miss a task again with your personalized task list. Track
-                attendance, unpaid sessions, unsigned notes, and more.
-              </p>
-            </div>
-          </div>
-          <div class="core-features-flex">
-            <i id="chart" class="fas fa-chart-line fa-3x"></i>
-            <div>
-              <h3 class="medium-text">
-                Dashboard with Practice Financial Data
-              </h3>
-              <p class="medium-text">
-                A healthy practice is more than the numbers, but we’ll help
-                manage yours. See key stats graphed and export your data at any
-                time.
-              </p>
-            </div>
-          </div>
-          <div class="core-features-flex">
-            <i class="far fa-calendar-alt fa-3x"></i>
-            <div>
-              <h3 class="medium-text">Office Admin Access</h3>
-              <p class="medium-text">
-                Free access for office admins so you can be supported with
-                scheduling and billing. Hide your session notes from your admins
-                if needed.
-              </p>
-            </div>
-          </div>
-          <div class="core-features-flex">
-            <i class="fas fa-users fa-3x"></i>
-            <div>
-              <h3 class="medium-text">Multiple Supervisor Access</h3>
-              <p class="medium-text">
-                Account for your supervisor on your sessions, financial
-                documents, and session notes, and set your supervisor up with
-                access to your Owl account to review and sign notes.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="pricing">
-      <div class="container">
-        <h2>Pricing</h2>
-        <div class="pricing-grid">
-          <h3 id="light">Light (Solo)</h3>
-          <h3 id="standard">Standard (Solo)</h3>
-          <h3 id="premium">Premium (Solo)</h3>
-          <h3 id="popular">Most Popular</h3>
-          <div id="light-content" class="pricing-grid-content">
-            <div class="bottom-border p-g-1">
-              <h3>$40/month</h3>
-              <p>Flexible and low-cost</p>
-              <a href="#" class="btn-green">Free Trial</a>
-            </div>
-            <div class="p-g-2">
-              <h3>Core Features plus:</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-check"></i> Up to 20 Sessions per month
-                </li>
-                <li><i class="fas fa-check"></i> Appointment scheduling</li>
-                <li>
-                  <i class="fas fa-check"></i> Reminders and Confirmations
-                </li>
-                <li><i class="fas fa-check"></i> Family and Couples</li>
-                <li><i class="fas fa-check"></i> Sophisticated Billing</li>
-
-                <li><i class="fas fa-check"></i> Clinical Notes</li>
-                <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
-              </ul>
-            </div>
-          </div>
-          <div id="standard-content" class="pricing-flex">
-            <div class="bottom-border p-g-1">
-              <h3>$60/month</h3>
-              <p>Take your practice to the next level</p>
-              <a href="#" class="btn-green">Free Trial</a>
-            </div>
-            <div class="p-g-2">
-              <h3>Core Features plus:</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-check"></i> Unlimited sessions per month
-                </li>
-                <li><i class="fas fa-check"></i> Appointment scheduling</li>
-                <li>
-                  <i class="fas fa-check"></i> Reminders and Confirmations
-                </li>
-                <li><i class="fas fa-check"></i> Family and Couples</li>
-                <li><i class="fas fa-check"></i> Sophisticated Billing</li>
-
-                <li><i class="fas fa-check"></i> Clinical Notes</li>
-                <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
-              </ul>
-            </div>
-          </div>
-          <div id="premium-content" class="pricing-flex">
-            <div class="bottom-border p-g-1">
-              <h3>$80/month</h3>
-              <p>All the bells and whistles</p>
-              <a href="#" class="btn-green">Free Trial</a>
-            </div>
-            <div class="bottom-border p-g-2">
-              <h3>Core Features plus:</h3>
-              <ul>
-                <li>
-                  <i class="fas fa-check"></i> Unlimited sessions per month
-                </li>
-                <li><i class="fas fa-check"></i> Appointment scheduling</li>
-                <li>
-                  <i class="fas fa-check"></i> Reminders and Confirmations
-                </li>
-                <li><i class="fas fa-check"></i> Family and Couples</li>
-                <li><i class="fas fa-check"></i> Sophisticated Billing</li>
-
-                <li><i class="fas fa-check"></i> Clinical Notes</li>
-                <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
-              </ul>
-            </div>
-            <div class="p-g-2">
-              <h3>Client Portal</h3>
-              <ul>
-                <li><i class="fas fa-check"></i> Online Booking</li>
-                <li><i class="fas fa-check"></i> Intake and Consent Forms</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="pricing-group">
-      <div class="container">
-        <div class="bg-dark">
-          <h2>Group Edition</h2>
-        </div>
-        <div>
-          <div id="light-content" class="pricing-grid-content">
-            <div class="bottom-border p-g-1">
-              <h3>$120/month</h3>
-              <p>Manage your group practice</p>
-              <a href="#" class="btn-green">Contact Us</a>
-            </div>
-            <div class="p-g-2">
-              <h3>Core Features plus:</h3>
-              <div class="grid-group-features">
-                <ul>
-                  <li>
-                    <i class="fas fa-check"></i> Unlimited sessions per month
-                  </li>
-                  <li><i class="fas fa-check"></i> Appointment scheduling</li>
-                  <li>
-                    <i class="fas fa-check"></i> Reminders and Confirmations
-                  </li>
-                  <li><i class="fas fa-check"></i> Family and Couples</li>
-                </ul>
-                <ul>
-                  <li><i class="fas fa-check"></i> Sophisticated Billing</li>
-                  <li><i class="fas fa-check"></i> Clinical Notes</li>
-                  <li><i class="fas fa-check"></i> Document Uploads (4GB)</li>
-                  <li><i class="fas fa-check"></i> Multi-therapist Calendar</li>
-                </ul>
-                <ul>
-                  <li>
-                    <i class="fas fa-check"></i> Tailored Access by User Type
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i>Therapist Level Fee Schedule
-                  </li>
-                  <li>
-                    <i class="fas fa-check"></i> Optional Client Portal Add-on
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <p class="text-blue">
-            Student or New Grad? Contact us to find out about our student
-            pricing!
+      <div class="header-content">
+        <div class="header-text">
+          <h1>
+            Pricing.
+          </h1>
+          <p>
+            Getting started is easy!
           </p>
+          <p>Our plans are month-to-month and you can change anytime.</p>
+        </div>
+        <i class="fas fa-tag fa-5x"></i>
+      </div>
+    </div>
+  </header>
+
+  <section id="core-features">
+    <div class="container">
+      <h2>Core Features</h2>
+      <div class="core-features-grid">
+        <div class="core-features-flex">
+          <i id="clock" class="far fa-clock fa-3x"></i>
+          <div>
+            <h3 class="medium-text">Customer Support</h3>
+            <p class="medium-text">
+              We’re here to help seven days a week. Customer support is
+              included in your monthly fees so contact us today.
+            </p>
+          </div>
+        </div>
+        <div class="core-features-flex">
+          <i id="lock" class="fas fa-lock fa-3x"></i>
+          <div>
+            <h3 class="medium-text">PHIPA and College Compliant</h3>
+            <p class="medium-text">
+              Store your client information on our PHIPA and college compliant
+              servers.
+            </p>
+          </div>
+        </div>
+        <div class="core-features-flex">
+          <i class="far fa-folder-open fa-3x"></i>
+          <div>
+            <h3 class="medium-text">Workflow Automation</h3>
+            <p class="medium-text">
+              Never miss a task again with your personalized task list. Track
+              attendance, unpaid sessions, unsigned notes, and more.
+            </p>
+          </div>
+        </div>
+        <div class="core-features-flex">
+          <i id="chart" class="fas fa-chart-line fa-3x"></i>
+          <div>
+            <h3 class="medium-text">
+              Dashboard with Practice Financial Data
+            </h3>
+            <p class="medium-text">
+              A healthy practice is more than the numbers, but we’ll help
+              manage yours. See key stats graphed and export your data at any
+              time.
+            </p>
+          </div>
+        </div>
+        <div class="core-features-flex">
+          <i class="far fa-calendar-alt fa-3x"></i>
+          <div>
+            <h3 class="medium-text">Office Admin Access</h3>
+            <p class="medium-text">
+              Free access for office admins so you can be supported with
+              scheduling and billing. Hide your session notes from your admins
+              if needed.
+            </p>
+          </div>
+        </div>
+        <div class="core-features-flex">
+          <i class="fas fa-users fa-3x"></i>
+          <div>
+            <h3 class="medium-text">Multiple Supervisor Access</h3>
+            <p class="medium-text">
+              Account for your supervisor on your sessions, financial
+              documents, and session notes, and set your supervisor up with
+              access to your Owl account to review and sign notes.
+            </p>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="faqs">
-      <div class="container bottom-border">
-        <div id="faqs-dropdowns" class="bottom-border">
-          <h2 class="dark-text">Frequently Asked Questions</h2>
-          <ul>
-            <div class="space-between bottom-border">
+  <section id="pricing">
+    <div class="container">
+      <h2>Pricing</h2>
+      <div class="pricing-grid">
+        <h3 id="light">Light (Solo)</h3>
+        <h3 id="standard">Standard (Solo)</h3>
+        <h3 id="premium">Premium (Solo)</h3>
+        <h3 id="popular">Most Popular</h3>
+        <div id="light-content" class="pricing-grid-content">
+          <div class="bottom-border p-g-1">
+            <h3>$40/month</h3>
+            <p>Flexible and low-cost</p>
+            <a href="#" class="btn-green">Free Trial</a>
+          </div>
+          <div class="p-g-2">
+            <h3>Core Features plus:</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Up to 20 Sessions per month
+              </li>
+              <li><i class="fas fa-check"></i> Appointment scheduling</li>
+              <li>
+                <i class="fas fa-check"></i> Reminders and Confirmations
+              </li>
+              <li><i class="fas fa-check"></i> Family and Couples</li>
+              <li><i class="fas fa-check"></i> Sophisticated Billing</li>
+
+              <li><i class="fas fa-check"></i> Clinical Notes</li>
+              <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
+            </ul>
+          </div>
+        </div>
+        <div id="standard-content" class="pricing-flex">
+          <div class="bottom-border p-g-1">
+            <h3>$60/month</h3>
+            <p>Take your practice to the next level</p>
+            <a href="#" class="btn-green">Free Trial</a>
+          </div>
+          <div class="p-g-2">
+            <h3>Core Features plus:</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Unlimited sessions per month
+              </li>
+              <li><i class="fas fa-check"></i> Appointment scheduling</li>
+              <li>
+                <i class="fas fa-check"></i> Reminders and Confirmations
+              </li>
+              <li><i class="fas fa-check"></i> Family and Couples</li>
+              <li><i class="fas fa-check"></i> Sophisticated Billing</li>
+
+              <li><i class="fas fa-check"></i> Clinical Notes</li>
+              <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
+            </ul>
+          </div>
+        </div>
+        <div id="premium-content" class="pricing-flex">
+          <div class="bottom-border p-g-1">
+            <h3>$80/month</h3>
+            <p>All the bells and whistles</p>
+            <a href="#" class="btn-green">Free Trial</a>
+          </div>
+          <div class="bottom-border p-g-2">
+            <h3>Core Features plus:</h3>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> Unlimited sessions per month
+              </li>
+              <li><i class="fas fa-check"></i> Appointment scheduling</li>
+              <li>
+                <i class="fas fa-check"></i> Reminders and Confirmations
+              </li>
+              <li><i class="fas fa-check"></i> Family and Couples</li>
+              <li><i class="fas fa-check"></i> Sophisticated Billing</li>
+
+              <li><i class="fas fa-check"></i> Clinical Notes</li>
+              <li><i class="fas fa-check"></i> Document Uploads (1GB)</li>
+            </ul>
+          </div>
+          <div class="p-g-2">
+            <h3>Client Portal</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Online Booking</li>
+              <li><i class="fas fa-check"></i> Intake and Consent Forms</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing-group">
+    <div class="container">
+      <div class="bg-dark">
+        <h2>Group Edition</h2>
+      </div>
+      <div>
+        <div id="light-content" class="pricing-grid-content">
+          <div class="bottom-border p-g-1">
+            <h3>$120/month</h3>
+            <p>Manage your group practice</p>
+            <a href="#" class="btn-green">Contact Us</a>
+          </div>
+          <div class="p-g-2">
+            <h3>Core Features plus:</h3>
+            <div class="grid-group-features">
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i> Unlimited sessions per month
+                </li>
+                <li><i class="fas fa-check"></i> Appointment scheduling</li>
+                <li>
+                  <i class="fas fa-check"></i> Reminders and Confirmations
+                </li>
+                <li><i class="fas fa-check"></i> Family and Couples</li>
+              </ul>
+              <ul>
+                <li><i class="fas fa-check"></i> Sophisticated Billing</li>
+                <li><i class="fas fa-check"></i> Clinical Notes</li>
+                <li><i class="fas fa-check"></i> Document Uploads (4GB)</li>
+                <li><i class="fas fa-check"></i> Multi-therapist Calendar</li>
+              </ul>
+              <ul>
+                <li>
+                  <i class="fas fa-check"></i> Tailored Access by User Type
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>Therapist Level Fee Schedule
+                </li>
+                <li>
+                  <i class="fas fa-check"></i> Optional Client Portal Add-on
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p class="text-blue">
+          Student or New Grad? Contact us to find out about our student
+          pricing!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faqs">
+    <div class="container bottom-border">
+      <div id="faqs-dropdowns" class="bottom-border">
+        <h2 class="dark-text">Frequently Asked Questions</h2>
+        <ul>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-1">
               <li class="medium-text">
                 What’s included in Owl?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-2">
               <li class="medium-text">
                 Is there a commitment for using Owl? Am I locked in?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
-              <li class="medium-text">What support do you offer for Owl?</li>
+            <p class="medium-text hide" id="menu-c-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-3">
+              <li class="medium-text">
+                What support do you offer for Owl?
+              </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-4">
               <li class="medium-text">
                 Can I export my data from Owl?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-5">
               <li class="medium-text">
                 Does Owl work with accounting software?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-6">
               <li class="medium-text">
                 Can I try Owl for free?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-6">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-7">
               <li class="medium-text">
                 What Pricing Options are Available?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-7">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-8">
               <li class="medium-text">
                 Does Owl have a Student plan?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
-            <div class="space-between bottom-border">
+            <p class="medium-text hide" id="menu-c-8">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+          <div class="bottom-border">
+            <div class="space-between" id="menu-9">
               <li class="medium-text">
                 Is Owl secure and PHIPA compliant?
               </li>
               <i class="fas fa-chevron-down dark-text"></i>
             </div>
+            <p class="medium-text hide" id="menu-c-9">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium, animi obcaecati dolor provident vel beatae asperiores maiores quidem laborum possimus
+              explicabo ad enim itaque tempora laudantium architecto incidunt. Aspernatur amet molestiae modi error
+              veritatis laborum repudiandae veniam enim quam rem, vitae nobis hic similique quaerat! Dolor odit
+              aspernatur iure ipsa!</p>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="trial-bar">
+    <div class="container">
+      <div class="one">
+        <a href="#" class="btn-green">Start my FREE Trial</a>
+      </div>
+      <div class="two">
+        <a href="#" class="btn-white">Request a Demo</a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="main-footer">
+    <div class="container">
+      <div class="links">
+        <div>
+          <h4>Tour</h4>
+          <ul>
+            <li><a href="#">Scheduling</a></li>
+            <li><a href="#">Biling</a></li>
+            <li><a href="#">Notes</a></li>
+            <li><a href="#">Client Records</a></li>
+            <li><a href="#">Client Portal</a></li>
+            <li><a href="#">Business Management</a></li>
+            <li><a href="#">Group Edition</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Mission</h4>
+          <ul>
+            <li><a href="#">Mission & Vision</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Values</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Pricing</h4>
+          <ul>
+            <li><a href="#">Pricing Options</a></li>
+            <li><a href="#">Pricing FAQs</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Blog</h4>
+          <ul>
+            <li><a href="#">Feature Updates</a></li>
+            <li><a href="#">Owl Tips</a></li>
+            <li><a href="#">Practice Wisdom</a></li>
+            <li><a href="#">Welcome</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Help Centre</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="#">Contact US</a></li>
+            <li><a href="#">Request a Demo</a></li>
+            <li><a href="#">-------------------------</a></li>
+            <li><a href="#">TherapyOwl</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Follow Us</h4>
+          <ul>
+            <li>
+              <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </li>
           </ul>
         </div>
       </div>
-    </section>
 
-    <section id="trial-bar">
-      <div class="container">
-        <div class="one">
-          <a href="#" class="btn-green">Start my FREE Trial</a>
-        </div>
-        <div class="two">
-          <a href="#" class="btn-white">Request a Demo</a>
-        </div>
+      <div class="copyright secondary-colour-text">
+        <p>&copy; 2020 Owl Practice Inc. Designed and built in Canada</p>
       </div>
-    </section>
+    </div>
+  </footer>
 
-    <footer id="main-footer">
-      <div class="container">
-        <div class="links">
-          <div>
-            <h4>Tour</h4>
-            <ul>
-              <li><a href="#">Scheduling</a></li>
-              <li><a href="#">Biling</a></li>
-              <li><a href="#">Notes</a></li>
-              <li><a href="#">Client Records</a></li>
-              <li><a href="#">Client Portal</a></li>
-              <li><a href="#">Business Management</a></li>
-              <li><a href="#">Group Edition</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Mission</h4>
-            <ul>
-              <li><a href="#">Mission & Vision</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Values</a></li>
-              <li><a href="#">Careers</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Pricing</h4>
-            <ul>
-              <li><a href="#">Pricing Options</a></li>
-              <li><a href="#">Pricing FAQs</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Blog</h4>
-            <ul>
-              <li><a href="#">Feature Updates</a></li>
-              <li><a href="#">Owl Tips</a></li>
-              <li><a href="#">Practice Wisdom</a></li>
-              <li><a href="#">Welcome</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Support</h4>
-            <ul>
-              <li><a href="#">Help Centre</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Contact</h4>
-            <ul>
-              <li><a href="#">Contact US</a></li>
-              <li><a href="#">Request a Demo</a></li>
-              <li><a href="#">-------------------------</a></li>
-              <li><a href="#">TherapyOwl</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4>Follow Us</h4>
-            <ul>
-              <li>
-                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
-              </li>
-              <li>
-                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+  <script src="app.js"></script>
+</body>
 
-        <div class="copyright secondary-colour-text">
-          <p>&copy; 2020 Owl Practice Inc. Designed and built in Canada</p>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

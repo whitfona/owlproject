@@ -32,6 +32,9 @@
 .show[data-tab-content] {
   display: block;
 }
+.hide {
+  display: none;
+}
 
 /* ACTIVE = CIRCLE COLOUR */
 .active {
@@ -274,4 +277,13 @@
   width: 300px;
   background: #ddd;
   justify-self: center;
+}
+
+/* Dropdown Menu */
+#why-choose-owl p, #faqs p {
+  padding: 2rem
+}
+
+#why-choose-owl .space-between, #faqs .space-between {
+  cursor: pointer;
 }
