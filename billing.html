@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/65f79fa78a.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Owl Practice</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tab-style.css" />
+  </head>
+  <body>
+    <header class="primary-header">
+      <p id="headline">
+        Owl users tell us they save more than 8 hours on average each month in
+        practice administration!
+      </p>
+      <div class="container">
+        <div id="header-menu">
+          <a href="index.html"
+            ><img src="images/owl_logo.png" alt="Owl Practice"
+          /></a>
+          <ul class="primary-menu text-white">
+            <li><a href="scheduling.html" class="current-tab">Tour</a></li>
+            <li><a href="mission.html">Our Mission</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">TherapyOwl</a></li>
+            <li><a href="#" class="btn-white">Request a Demo</a></li>
+            <li><a href="#" class="btn-green">Free Trial</a></li>
+          </ul>
+        </div>
+        <div class="header-content">
+          <div class="header-text">
+            <h1>
+              Take the tour.
+            </h1>
+            <p>
+              We’re transforming how practices manage their businesses. Spend
+              more time with clients and less time on administration using the
+              most secure, PHI-Compliant, and easy-to-use solution in Canada.
+            </p>
+          </div>
+          <div class="header-img">
+            <img src="images/owl_macbook.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ICONS -->
+    <section id="tour-logos">
+      <div class="container">
+        <i
+          data-tab-target="#tour-scheduling"
+          class="fas fa-calendar-alt fa-3x"
+        ></i>
+        <i data-tab-target="#tour-billing" class="fas fa-dollar-sign fa-3x"></i>
+        <i data-tab-target="#tour-notes" class="far fa-clipboard fa-3x"></i>
+        <i
+          data-tab-target="#tour-client-records"
+          class="far fa-address-card fa-3x"
+        ></i>
+        <i
+          data-tab-target="#tour-client-portal"
+          class="fas fa-chalkboard-teacher fa-3x"
+        ></i>
+        <i
+          data-tab-target="#tour-business-mgmt"
+          class="fas fa-chart-line fa-3x"
+        ></i>
+        <i data-tab-target="#tour-group-edition" class="fas fa-users fa-3x"></i>
+        <h2 class="dark-text">Scheduling</h2>
+        <h2 class="dark-text">Billing</h2>
+        <h2 class="dark-text">Notes</h2>
+        <h2 class="dark-text">Client Records</h2>
+        <h2 class="dark-text">Client Portal</h2>
+        <h2 class="dark-text">Business Management</h2>
+        <h2 class="dark-text">Group Edition</h2>
+      </div>
+    </section>
+
+    <!-- CIRCLES -->
+    <div class="content-wrapper">
+      <div class="container">
+        <div class="ng-modal-number-container">
+          <div class="questionNumbers">
+            <div
+              id="cir-schedule"
+              class="content questionNumberIcon active"
+            ></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-billing" class="content questionNumberIcon "></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-notes" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-client-records" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-client-portal" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-bus-mgmt" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-group-edition" class="questionNumberIcon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="tour-scheduling" class="content show" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Streamline your calendar
+            </h2>
+            <p class="medium-text pad-1">
+              Manage all of your events in one place. Keep track of client
+              sessions, vacations, conferences, and anything else you need to
+              schedule all in the same calendar. Access your schedule anywhere
+              at anytime
+            </p>
+            <p class="medium-text pad-1">
+              All of Owl is mobile and tablet friendly, so you can view and
+              update your schedule wherever you are. Send your sessions to your
+              iCal, Google Calendar, or any other third party calendar using
+              Owl’s secure, PHIPA compliant one way Calendar sync.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Complete your administrative tasks from your calendar
+            </h2>
+            <p class="medium-text pad-1">
+              Create two-click invoices, generate receipts, and email them to
+              your clients without leaving the Calendar. You can even write
+              session notes from the Calendar.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Shared calendar for groups or admins
+            </h2>
+            <p class="medium-text pad-1">
+              Multi clinician shared calendar for groups, customizable room
+              booking view, and availability limits so administrative staff
+              always schedules clinicians at the right time.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Online Booking
+            </h2>
+            <p class="medium-text pad-1">
+              An option feature, Online Booking allows clients to book their own
+              sessions into your calendar. Limit who, when, and which services
+              they can book so you remain in control of your schedule.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-billing" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Automatic invoices and professional receipts
+            </h2>
+            <p class="medium-text pad-1">
+              One click invoicing and third party billing company friendly
+              invoices and receipts.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Multi-attendee billing for couples and family sessions
+            </h2>
+            <p class="medium-text pad-1">
+              Schedule and bill for couples or family therapy sessions with
+              accurate attendees included on all billing documents.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Integrated payment processing
+            </h2>
+            <p class="medium-text pad-1">
+              Process client credit cards with Stripe directly from your Owl
+              account. Featuring a seamless integration and competitive
+              processing rates.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Balance owing management
+            </h2>
+            <p class="medium-text pad-1">
+              Stay on top of how much clients owe you with Owl’s always-there
+              account balances. See a complete history of all invoices and
+              payments in one place.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-notes" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Integrated note writing
+            </h2>
+            <p class="medium-text pad-1">
+              Mobile and desktop friendly note writing and editing tools.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Version Control
+            </h2>
+            <p class="medium-text pad-1">
+              Notes are auto-saved every 60 seconds, and a version of each save
+              is always accessible. Add your digital signature to lock notes and
+              document the date and time of completion.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Supervision functionality
+            </h2>
+            <p class="medium-text pad-1">
+              For those in supervised practices, use Owl to manage the
+              supervisory notes review process.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Secure Storage
+            </h2>
+            <p class="medium-text pad-1">
+              Isolated client records store all notes digitally on our PHIPA and
+              College compliant servers. Access your notes from all of your
+              devices.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-client-records" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Secure Client Data Management
+            </h2>
+            <p class="medium-text pad-1">
+              Use Owl to manage all client contact details, clinical notes,
+              to-do’s, and billing details. Move your practice data from filing
+              cabinets to Owl’s secure Canadian servers.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Circle of care
+            </h2>
+            <p class="medium-text pad-1">
+              Manage couples and family therapy sessions with accurate
+              scheduling, billing, and notes. Track extended contacts and
+              contact information.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Document Uploads
+            </h2>
+            <p class="medium-text pad-1">
+              Move your filing cabinet online. Upload files to the client record
+              so you can access them whenever and wherever you need. As with
+              everything in Owl, your data is securely backed up regularly so
+              you don’t lose any practice information.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Client “To Do” Lists
+            </h2>
+            <p class="medium-text pad-1">
+              Write internal sticky notes to manage your next steps for a
+              client. Keep organized and never forget a task again.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-client-portal" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Online booking
+            </h2>
+            <p class="medium-text pad-1">
+              Let you clients book and manage their own appointments from your
+              website.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Intake and consent forms
+            </h2>
+            <p class="medium-text pad-1">
+              Transform your intake process to be paperless, convenient, and
+              secure. Owl Forms are mobile friendly for your clients, and you
+              will be emailed as soon as a client completes them.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Secure messaging (coming soon!)
+            </h2>
+            <p class="medium-text pad-1">
+              Communicating with clients has never been easier or safer. Secure
+              messaging empowers therapists to message with their clients via a
+              secure, PHIPA, and college compliant portal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-business-mgmt" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Dashboard
+            </h2>
+            <p class="medium-text pad-1">
+              Stat on top of business development with analytics and insights of
+              key practice stats. Use graphs and exports custom to your practice
+              to plan for improved growth.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Workflow
+            </h2>
+            <p class="medium-text pad-1">
+              Track the administrative progress of each session with an easy to
+              use attendance, payment, and note writing workflow. Use this tool
+              to identify and action overdue accounts with the click of a
+              button.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Practice Consultation
+            </h2>
+            <p class="medium-text pad-1">
+              We know running a private practice is difficult, which is why we
+              are here to help.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              TherapyOwl
+            </h2>
+            <p class="medium-text pad-1">
+              Umquatione re poris demperum laut quatiis int derum, utatecab
+              ipsae. Is sapistis as eum con repellam harumet aceaquid
+              magnimossit quasim rem nieturio es molum nis ere coriorum re re
+              ide vel exceaquia quias sus doluptatur modit aut aborem quiaspel.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tour-group-edition" class="content" data-tab-content>
+      <div class="container">
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Shared calendars
+            </h2>
+            <p class="medium-text pad-1">
+              Benefit from a shared calendar for your group practice, with
+              various views and options to limit access to client information.
+              Schedule sessions into custom rooms so you know exactly where
+              sessions are happening.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Layered access to information
+            </h2>
+            <p class="medium-text pad-1">
+              Assign users specific access to information using Owl’s user
+              types. Clinicians can be locked to only see their own clients, and
+              cannot access practice wide information.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Combined reporting
+            </h2>
+            <p class="medium-text pad-1">
+              Access exports and business analyis for the entire practice, so
+              month end reconciliation and tax season are as easy as possible. A
+              therapist payment export makes paying your staff easier than ever.
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container bottom-border">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Supervisor Functionality
+            </h2>
+            <p class="medium-text pad-1">
+              Manage clinical supervision within Owl. Include supervisors on
+              invoices, receipts, notes, and track supervised hours
+            </p>
+          </div>
+        </div>
+        <div class="tour-grid-container">
+          <div class="grey-box"></div>
+          <div>
+            <h2 class="dark-text pad-1">
+              Workflow
+            </h2>
+            <p class="medium-text pad-1">
+              User specific Workflows so everyone in your practice knows exactly
+              which tasks they need to complete.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CIRCLES -->
+    <div class="content-wrapper">
+      <div class="container">
+        <div class="ng-modal-number-container">
+          <div class="questionNumbers">
+            <div id="cir-schedule-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-billing-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-notes-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-client-records-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-client-portal-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-bus-mgmt-2" class="questionNumberIcon"></div>
+          </div>
+          <div class="questionNumbers">
+            <div id="cir-group-edition-2" class="questionNumberIcon"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="trial-bar">
+      <div class="container">
+        <div class="one">
+          <a href="#" class="btn-green">Start my FREE Trial</a>
+        </div>
+        <div class="two">
+          <a href="#" class="btn-white">Request a Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="main-footer">
+      <div class="container">
+        <div class="links">
+          <div>
+            <h4>Tour</h4>
+            <ul>
+              <li><a href="#">Scheduling</a></li>
+              <li><a href="#">Biling</a></li>
+              <li><a href="#">Notes</a></li>
+              <li><a href="#">Client Records</a></li>
+              <li><a href="#">Client Portal</a></li>
+              <li><a href="#">Business Management</a></li>
+              <li><a href="#">Group Edition</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Mission</h4>
+            <ul>
+              <li><a href="#">Mission & Vision</a></li>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Values</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Pricing</h4>
+            <ul>
+              <li><a href="#">Pricing Options</a></li>
+              <li><a href="#">Pricing FAQs</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Blog</h4>
+            <ul>
+              <li><a href="#">Feature Updates</a></li>
+              <li><a href="#">Owl Tips</a></li>
+              <li><a href="#">Practice Wisdom</a></li>
+              <li><a href="#">Welcome</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Centre</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="#">Contact US</a></li>
+              <li><a href="#">Request a Demo</a></li>
+              <li><a href="#">-------------------------</a></li>
+              <li><a href="#">TherapyOwl</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Follow Us</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="copyright secondary-colour-text">
+          <p>&copy; 2020 Owl Practice Inc. Designed and built in Canada</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="app.js
+  "></script>
+  </body>
+</html>
