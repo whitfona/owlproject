@@ -55,6 +55,10 @@ a {
   color: var(--medium-colour);
 }
 
+.text-blue {
+  color: var(--primary-blue);
+  text-align: center;
+}
 .secondary-colour-text {
   color: var(--secondary-blue);
 }
@@ -461,6 +465,164 @@ input#email:focus {
 #values .container li {
   padding-left: 1rem;
   font-weight: 100;
+}
+
+/* PRICING */
+/* Core-Features */
+#core-features .container h2 {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+#core-features .container .core-features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+#core-features .container .core-features-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#core-features .container .core-features-flex i {
+  color: var(--primary-blue);
+  padding-right: 2rem;
+}
+
+/* Pricing Grid */
+.header-content i {
+  justify-self: end;
+  color: #fff;
+  padding-right: 4rem;
+}
+
+#pricing .container h2 {
+  text-align: center;
+  padding-bottom: 4rem;
+}
+#pricing .container .pricing-grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-areas:
+    'light standard premium'
+    'light-content popular premium-content'
+    'light-content standard-content premium-content';
+}
+
+#light {
+  grid-area: light;
+}
+#standard {
+  grid-area: standard;
+}
+#premium {
+  grid-area: premium;
+}
+#popular {
+  grid-area: popular;
+}
+#light-content {
+  grid-area: light-content;
+}
+#standard-content {
+  grid-area: standard-content;
+}
+#premium-content {
+  grid-area: premium-content;
+}
+
+#light,
+#standard,
+#premium {
+  background: var(--secondary-blue);
+  color: var(--light-colour);
+  text-align: center;
+  padding: 2rem;
+}
+
+#popular {
+  background: var(--primary-green);
+  color: var(--light-colour);
+  padding: 0.5rem;
+  text-align: center;
+  align-self: center;
+}
+
+#light-content,
+#standard-content,
+#premium-content {
+  display: grid;
+  border: #bbb 1px solid;
+  padding: 2rem;
+}
+.p-g-1,
+.p-g-1 h3,
+.p-g-1 p {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.p-g-2 h3 {
+  text-align: center;
+  padding: 2rem;
+}
+
+.p-g-2 i {
+  color: var(--primary-green);
+  padding-right: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+#pricing-group .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+}
+
+#pricing-group .container .bg-dark {
+  background: #777;
+  color: var(--light-colour);
+  text-align: center;
+  padding: 2rem;
+}
+
+.grid-group-features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* FAQs */
+#faqs .container #calender {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#faqs .container #calender img {
+  width: 75%;
+  padding-bottom: 1rem;
+}
+
+#faqs .container #calender p {
+  font-size: 0.7rem;
+  margin-bottom: 4rem;
+}
+
+/* Why Choose Owl Drop Down Menus */
+
+#faqs-dropdowns h2 {
+  padding-bottom: 1rem;
+}
+
+#faqs-dropdowns ul li {
+  padding: 0.5rem 0px;
+}
+
+#faqs .container #primary-review {
+  margin-top: 2rem;
 }
 
 /* MEDIA QUERIES */
