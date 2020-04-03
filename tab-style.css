@@ -1,0 +1,277 @@
+:root {
+  --primary-blue: #257395;
+  --secondary-blue: #4f8eab;
+  --primary-green: #85bc27;
+  --dark-colour: #333;
+  --medium-colour: #808080;
+  --light-colour: #f4f4f4;
+}
+
+.pad-1 {
+  padding-bottom: 1rem;
+}
+
+#tour-logos .container i {
+  color: var(--primary-blue);
+  cursor: pointer;
+}
+
+#tour-logos .container i:hover {
+  opacity: 70%;
+}
+
+[data-tab-content] {
+  display: none;
+}
+
+/* SHOW = TAB CONTENT */
+.show {
+  display: block;
+}
+
+.show[data-tab-content] {
+  display: block;
+}
+
+/* ACTIVE = CIRCLE COLOUR */
+.active {
+  background: var(--primary-green);
+}
+
+/* Tour-Scheduling-Section */
+#tour-scheduling .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-scheduling .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-scheduling .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-scheduling .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Billing-Section */
+#tour-billing .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-billing .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-billing .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-billing .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Notes-Section */
+#tour-notes .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-notes .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-notes .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-notes .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Client-Records-Section */
+#tour-client-records .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-records .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-records .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-records .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Client-Portal-Section */
+#tour-client-portal .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-portal .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-portal .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-client-portal .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Business-Mgt-Section */
+#tour-business-mgmt .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-business-mgmt .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-business-mgmt .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-business-mgmt .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
+
+/* Tour-Group-Edition-Section */
+#tour-group-edition .container .tour-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 4rem 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-group-edition .container .tour-grid-container:first-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-bottom: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-group-edition .container .tour-grid-container:last-child {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0;
+  padding-top: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#tour-group-edition .container .tour-grid-container .grey-box {
+  height: 200px;
+  width: 300px;
+  background: #ddd;
+  justify-self: center;
+}
